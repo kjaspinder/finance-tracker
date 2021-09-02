@@ -1,6 +1,14 @@
 AllCops:
   Exclude:
     - 'bin/bundle'
+    - 'db/**/*'
+    - 'test/**/*'
+    - 'bin/**/*'
+    - 'lib/**/*'
+    - 'config/**/*'
 
+Style/FrozenStringLiteralComment:
+  Enabled: false
+  
 Style/Documentation:
   Enabled: false
