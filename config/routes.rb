@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   get 'my_portfolio', to: 'users#my_portfolio'
   get 'friends', to: 'users#friends'
   get 'search_stock', to: 'stocks#search'
+  get 'search_friends', to: 'users#search'
 end
